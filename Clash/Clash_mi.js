@@ -1156,6 +1156,9 @@ function main(config) {
 
   config["rule-providers"] = {
 
+     "Ads":
+      createRuleProvider("ads.yaml"),
+    
     "AI":
       createRuleProvider("ai.yaml"),
 
@@ -1841,6 +1844,12 @@ function main(config) {
 
     "RULE-SET,NetworkTest,网络检测",
 
+    // --------------------------------------------------------------
+    // Ads
+    // --------------------------------------------------------------
+
+    "RULE-SET,Ads,Ads",
+    
 
     // --------------------------------------------------------------
     // AI
